@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>FORM</title>
+</head>
+<h4> 
+<center>
+<u>PRODUCT ENQUIRY</u>
+</center>
+</h3>
+<h3><body bgcolor="yellow">
+<form method="get">
+<table border=3 align="center">
+<tr>
+<td>NAME:</td>
+<td><input type="text" name="participant_name" placeholder="Enter your name" pattern="[A-Z a-z]"/></td><br>
+</tr>
+<tr>
+<td>DATE OF BIRTH:</td>
+<td><input type="date" name="DOB" placeholder="enter your DOB"/></td>
+</tr>
+<tr>
+<td>GENDER:</td>
+<td><input type="radio" name="gender" value="male"/>Male
+<input type="radio" name="gender" value="female"/>Female
+<input type="radio" name="gender" value="other"/>Other
+</td>
+</tr>
+<tr>
+<td>EMAIL ID:</td>
+<td><input type="email" name="email" /></td>
+</tr>
+<tr>
+<td>MOBILE NUMBER:</td>
+<td><input type="text" name="mobile_number pattern="[0-9]" length="{12}"/></td>
+</tr>
+<tr>
+<td> DELIVERY ADDRESS:</td>
+<td><textarea name="address"></textarea></td>
+</tr>
+<tr>
+<td>CITY:</td>
+<td><input type="text" name="city" /></td>
+</tr>
+<tr>
+<td>PIN CODE:</td>
+<td><input type="text" name="pincode" placeholder="Enter your pincode" pattern="[0-9]" min="1" max="6"/></td>
+</tr>
+<tr>
+<td>PRODUCT INSERTED:</td>
+<td>
+<select name="PRODUCTS INTRESTED:">
+
+     <option  value="mobile">mobile</option>
+     <option  value="laptop">laptop</option>
+     <option  value="earphone">earphone</option>
+     <option  value="mouse">mouse</option>
+     <option value="power bank">power bank</option>
+     <option value="laptop bag">laptop bag</option>
+</select>
+</td>
+</tr>
+<td>EMI OPTION REQUIRED:</td>
+<td><input type="radio" name="emi" value="Yes"/>YES
+<input type="radio" name="emi" value="No"/>NO
+</td>
+<tr>
+<td>PURCHASING MODE:</td>
+<td><input type="radio" name="purchasing mode" value="online"/>online
+<input type="radio" name="purchasing mode" value="offline"/>offline
+</td>
+<tr>
+<td><input type="reset" name="reset"></td>
+<td><input type="submit" name="sumbit"></td>
+</tr>
+</h3>
+</table>
+</form>
+</body>
+</html>
